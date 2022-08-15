@@ -40,10 +40,12 @@
 	</include>
 
 	<!-- These codes are now defined by HL7, so import them from there http://terminology.hl7.org/CodeSystem/hl7-document-format-codes -->
+  <!-- seems HL7 is publishing them now at http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes -->
 <!-- TODO: can't include these until HL7 publishes them -->
 
 	<include>
 	  <system value="http://terminology.hl7.org/CodeSystem/hl7-document-format-codes"/>
+<!--	  <system value="http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes"/> -->
 	</include>
 <!-- -->
 
